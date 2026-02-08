@@ -1,0 +1,29 @@
+div{
+    background-color: aqua;
+    border-radius: 10px;
+    height: 50%;
+    width: 60%;
+    margin: auto 25%;
+    transition: transform 5s, background-color 10s;
+}
+div:hover{
+    transform: rotate(45deg);
+    background-color: green;
+}
+.jogo{
+        border-radius: 50px;
+        text-align: center;
+        transition: transform 5s, background-color 10s;
+        margin: auto 60px;
+        padding: 10px;
+        
+}
+.jogo:hover{
+    transform: rotate(90deg);
+    background-color: green;
+}
+.just{
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
